@@ -35,10 +35,9 @@ export default defineConfig((ctx) => {
     ],
 
     // Full list of options: https://v2.quasar.dev/quasar-cli-webpack/quasar-config-file#build
-    build: {
-      // publicPath: '/',
-      vueRouterMode: 'hash', // available values: 'hash', 'history'
-
+   build: {
+      publicPath: '/6704101408-Rapeepong-Duangkamfoo/', // available values: 'hash', 'history'
+      vueRouterMode: 'hash',
       // webpackTranspile: false,
 
       // Add dependencies for transpiling with Babel (Array of string/regex)
